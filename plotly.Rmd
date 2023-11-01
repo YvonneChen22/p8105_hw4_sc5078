@@ -12,18 +12,18 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-We are going to look at "The Instacart Online Grocery Shopping Dataset 2017", we are only interested in items ordered in produce, snack, and beverage department on weekends.
+We are going to look at "The Instacart Online Grocery Shopping Dataset 2017", we are only interested in items ordered in produce, snack, and beverage department on weekdays.
 
 ```{r data import and clean}
 data("instacart")
 
 instacart = instacart |> 
-  select(add_to_cart_order, reordered, order_number, department, aisle, days_since_prior_order, product_name, order_dow) |>
+  select(add_to_cart_order, reordered, order_number, department, aisle, days_since_prior_order, product_name, order_dow, order_hour_of_day) |>
   filter(department %in% c("produce", "snacks", "beverages")) |>
-  filter(order_dow %in% c("0", "6"))
+  filter(order_dow %in% c("1", "2", "3", "4", "5"))
 ```
 
-The plot shows the number of items ordered in each aisle in produce, beverages, and snacks department.
+The bar plot shows the number of items ordered in each aisle in produce, beverages, and snacks department.
 ```{r}
 instacart |> 
   group_by(department) |>
@@ -35,6 +35,20 @@ instacart |>
   
 ```
 
+The scatter plot shows the tendency of reorder in different hours of the day.
+```{r}
+instacart |>
+  group_by(order_hour_of_day) |>
+  mutate(reordered=mean(reordered))|>
+  plot_ly(x = ~order_hour_of_day, y = ~reordered, type = "scatter", mode = "markers")
+```
 
+The box plot compares order in which each product was added to cart in different department.
+```{r}
+instacart |>
+  mutate(department = fct_reorder(department, add_to_cart_order)) |>
+  plot_ly(y = ~add_to_cart_order, color = ~department, type = "box")
+
+```
 
 
