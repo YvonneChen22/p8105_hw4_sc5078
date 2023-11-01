@@ -12,7 +12,8 @@ I'm a master students in Columbia University, Mailman School of Public Health.
 
 Welcome to my website!
 
-![](image/myself.jpg)
+<img src="image/myself.jpg" style="width:75%">
+
 
 ## This is my resume page
 
