@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Yvonne Chen's Resume"
 output: 
   html_document:
     toc: true
@@ -7,12 +7,13 @@ output:
 ---
 
 <div style="text-align:center;">
-# Yvonne Chen
 530-407-8932 | sc5078@cumc.columbia.edu
+
 Research interest: biostatistics, infectious disease and epidemiology
 
-## Education
 <div style="text-align:left;">
+## Education
+
 ### Columbia University
 
 Master of Public Health in Biostatistics
@@ -34,4 +35,42 @@ GPA: 3.614/4.0
 • Life Courses: Gene & Gene Expression, Intro Microbiology (with Lab), Animal Biochemistry & Metabolism, Systemic Physiology Lab
 
 • Statistics Courses: Calculus (I, II, III), Elementary Statistics, Regression Analysis, Analysis of Variance, Brief Math Statistics
+
+## Research Experience
+
+<b>Graduate Student, Columbia University Irving Medical Center</b>
+
+Department of Dermatology
+
+Director: David M. Owens
+
+• Conducted spatial gene expression analysis for formalin-fixed paraffin-embedded (FFPE) data using Space Ranger pipeline.
+
+• Analyzed Spatial Transcriptomics results, identifying human skin cell types using spatial clustering plots.
+
+• Integrated data analysis and biological knowledge to identify crucial cells in Actinic Keratoses, potentially contributing to cutaneous squamous cell carcinoma.
+
+
+<b>Graduate Student, Columbia University Irving Medical Center</b>
+
+Department of Biostatistics
+
+Director: Jinhua Hu
+
+• Engaged in longitudinal analysis research, including algorithm understanding and dataset exploration.
+
+• Applied statistical modeling to DIABIMMUNE Microbiome Project datasets, explored the impact of specific taxa on infant type 1 diabetes development.
+
+• Investigated the impact of Phylogenetic tree information on model efficiency.
+
+
+<b>Undergraduate Student, The University of Texas at San Antonio</b>
+
+Health Science Center
+
+Director: Qianjin Guo
+
+• Read literatures, and compared concepts, workflows, and applications of two kinds of RNA-seq technology.
+
+• Put the emphasis of the result interpretation for bulk mRNA-seq and single-cell RNA-seq, including the data visualization technique and statistical analysis.
 
