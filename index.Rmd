@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Yvonne Chen's website"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,11 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Hello, I'm Yvonne Chen
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+I'm a master students in Columbia University, Mailman School of Public Health.
+
+Welcome to my website!
+
+![](image/myself.jpg)
+
