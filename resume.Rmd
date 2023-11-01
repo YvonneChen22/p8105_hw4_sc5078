@@ -1,5 +1,4 @@
 ---
-title: "Yvonne Chen's Resume"
 output: 
   html_document:
     toc: true
@@ -7,6 +6,7 @@ output:
 ---
 
 <div style="text-align:center;">
+# Yvonne Chen
 530-407-8932 | sc5078@cumc.columbia.edu
 
 Research interest: biostatistics, infectious disease and epidemiology
@@ -14,7 +14,7 @@ Research interest: biostatistics, infectious disease and epidemiology
 <div style="text-align:left;">
 ## Education
 
-### Columbia University
+<b>Columbia University</b>
 
 Master of Public Health in Biostatistics
 
@@ -24,7 +24,7 @@ GPA: 3.99/4.0
 
 • Biostatistics Course: Applied Regression, analysis of categorical data, Statistical Computing with SAS, Data Science, Mathematical Statis, Analysis of Large-Scale D, STRATEGIC ISSUES IN HEALT
 
-### University of California, Davis
+<b>University of California, Davis</b>
 
 Bachelor of Science Major in Nutrition, Minor in Statistics
 
@@ -74,3 +74,39 @@ Director: Qianjin Guo
 
 • Put the emphasis of the result interpretation for bulk mRNA-seq and single-cell RNA-seq, including the data visualization technique and statistical analysis.
 
+## Practical Experience
+
+<b>Allergic to Salad</b>
+
+Food educator
+
+• Designed and executed engaging cooking activities for children, fostering curiosity and understanding of food and nutrition.
+
+<b>Shanghai Pudong Centers for Disease Control and Prevention</b>
+
+Intern
+
+• Executed comprehensive food sampling in convenience stores, contributing to data-driven food safety initiatives.
+
+• Assisted in the coordination of National Nutrition Week, including event planning and nutrition-related content creation.
+
+<b>Health and Civilization Monitoring in Jiaxing, Zhejiang Health Bureau</b>
+
+Data Collector
+
+• Spearheaded data collection efforts to analyze the impact of COVID-19 on safety practices in various public settings.
+
+• Generated insightful reports outlining findings and recommendations for public health interventions.
+
+<b>UC Davis Medical Center-Cardiac Rehabi</b>
+
+Volunteer
+
+• Aided post-cardiac procedure patients, monitoring vital signs and guiding exercises.
+
+• Demonstrated stretching/resistance-training exercises.
+
+## Skills
+Computer skills: Proficient in R, python, SAS, Stata.
+
+Languages: Native in Chinese, and proficient in English
