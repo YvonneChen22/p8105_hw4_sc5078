@@ -6,6 +6,32 @@ output:
     toc_float: true
 ---
 
-# Hello, I'm Yvonne Chen
+<div style="text-align:center;">
+# Yvonne Chen
+530-407-8932 | sc5078@cumc.columbia.edu
+Research interest: biostatistics, infectious disease and epidemiology
 
+## Education
+<div style="text-align:left;">
+### Columbia University
+
+Master of Public Health in Biostatistics
+
+GPA: 3.99/4.0
+
+• Public Health Courses: Research Methods & Application, Determinants of Health, Public Health Interventions, Health Systems, Decision Analysis for Clinical and Public Health Practice, Personal leadership in public health
+
+• Biostatistics Course: Applied Regression, analysis of categorical data, Statistical Computing with SAS, Data Science, Mathematical Statis, Analysis of Large-Scale D, STRATEGIC ISSUES IN HEALT
+
+### University of California, Davis
+
+Bachelor of Science Major in Nutrition, Minor in Statistics
+
+GPA: 3.614/4.0
+
+• Nutrition Courses: Intro Nut & Metabolism, Nutritional Assessment, Clinical Nutrition, Nutrition Practicum, Community Nutrition, Food Chemistry Clinical Nutrition, Proseminar in Nutrition
+
+• Life Courses: Gene & Gene Expression, Intro Microbiology (with Lab), Animal Biochemistry & Metabolism, Systemic Physiology Lab
+
+• Statistics Courses: Calculus (I, II, III), Elementary Statistics, Regression Analysis, Analysis of Variance, Brief Math Statistics
 
