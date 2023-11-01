@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # Hello, I'm Yvonne Chen
@@ -14,4 +13,12 @@ I'm a master students in Columbia University, Mailman School of Public Health.
 Welcome to my website!
 
 ![](image/myself.jpg)
+
+## This is my resume page
+
+[resume](resume.html)
+
+
+
+
 
