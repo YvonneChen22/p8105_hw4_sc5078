@@ -7,8 +7,34 @@ output:
 ---
 
 ``` {r setup}
-knitr::opts_chunk$set(message = FALSE)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 ```
+
+We are going to look at "The Instacart Online Grocery Shopping Dataset 2017", we are only interested in items ordered in produce department on weekends.
+
+```{r data import and clean}
+data("instacart")
+
+instacart = instacart |> 
+  select(add_to_cart_order, reordered, order_number, department, aisle, days_since_prior_order, product_name, order_dow) |>
+  filter(department %in% "produce") |>
+  filter(order_dow %in% c("0", "6"))
+```
+
+The plot shows the number of items ordered in each aisle, limiting this to aisles with more than 10000 items ordered.
+```{r}
+instacart |> 
+  count(aisle) |> 
+  filter(n > 10000) |> 
+  mutate(aisle = fct_reorder(aisle, n)) |> 
+  plot_ly(
+    x = ~aisle, y = ~n, type = "scatter", mode = "markers",
+    color = ~price, alpha = 0.5)
+  
+```
+
+
+
+
